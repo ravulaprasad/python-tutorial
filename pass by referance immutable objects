@@ -1,0 +1,9 @@
+def Change(x):
+  x.append(90)      #formal arguments changed & it affects on actual parameters
+#calling block
+lst=[20,30,50]      #actual arguments
+change(lst)
+print(lst)
+
+output:-
+[20,30,50,90]
