@@ -1,0 +1,12 @@
+#pas by referance immutable objects
+
+def change(x):        #formal arguments
+  x=10                      
+ #calling block 
+ y=20                 #actual arguments
+ change(y)
+ print(y)
+ 
+ output:-
+ 20
+ 
