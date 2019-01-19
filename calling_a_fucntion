@@ -1,0 +1,11 @@
+#calling a Function
+
+def Calculate(x,y,z)    #formal arguments
+  k=x,y,z
+  return k
+#calling block
+a=Calculate(10,20,30)   #actual arguments
+print(a)
+
+output:-
+60
